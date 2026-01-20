@@ -1,0 +1,7 @@
+{
+  "num_frames": 16,
+  "lstm_hidden_size": 256,
+  "lstm_num_layers": 2,
+  "dropout": 0.3,
+  "frame_size": 224
+}
