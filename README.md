@@ -119,10 +119,18 @@ label, probability, metadata = predictor.predict("video.mp4")
 ├── test_real_videos.py   # Batch testing
 ├── requirements.txt
 ├── checkpoints/
-│   ├── best_model.safetensors
-│   └── best_model.json
+│   ├── best_model.safetensors      # Trained model
+│   ├── best_model.json
+│   ├── mobilenet_v2_pretrained.pth # Pretrained backbone
+│   └── training_history.json
 └── README.md
 ```
+
+## Pretrained Model
+
+Fine-tuning base: **MobileNetV2** (ImageNet weights)
+- File: `checkpoints/mobilenet_v2_pretrained.pth`
+- Source: torchvision.models
 
 ## References
 
